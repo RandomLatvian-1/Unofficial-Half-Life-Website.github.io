@@ -115,6 +115,7 @@ You've proved yourself a decisive man so I don't expect you'll have any trouble 
 </p>
 <button class="button" id="colour">Yes</button>
 <button class="button" id="colour1">No</button>
+<button class="button" id="colour2">Cancel</button>
 <p id="message">Wisely Done Mr Freeman, I will see you up ahead.</p>
 <p id="message1">Well It looks like we won't be working together.</p>
     <script>
@@ -126,6 +127,10 @@ You've proved yourself a decisive man so I don't expect you'll have any trouble 
 	    document.getElementById("message1").style.backgroundColor = "orange";
 		 document.getElementById("message").style.backgroundColor = "black";
 	  };
+	   document.getElementById("colour2").onclick = function() {
+		 document.getElementById("message").style.backgroundColor = "black";
+		   document.getElementById("message1").style.backgroundColor = "black";
+	   };
 	</script>
 <br><img src="Half Life Symbol5.webp" alt="This is a picture of the Half-Life lambda symbol" height="100px" width="100px"</img>                                                            
 </div>
